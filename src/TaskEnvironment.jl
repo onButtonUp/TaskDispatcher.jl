@@ -14,3 +14,6 @@ function read_sourceFolder()
     readdir(taskSourcePath)
 end
 
+function set_sourceFolder(thisPath::String)
+    global taskSourcePath = thisPath
+end
