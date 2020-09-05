@@ -19,7 +19,5 @@ function set_sourcePath(thisPath::String)
 end
 
 function show_sourcePath()
-    return global taskSourcePath
-end
-    
+    return taskSourcePath
 end
