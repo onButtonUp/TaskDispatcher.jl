@@ -5,6 +5,5 @@
 
 *.ipynb
 
-someStuff/
 .github/
-.github_/
+
