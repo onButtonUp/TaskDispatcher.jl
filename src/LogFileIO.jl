@@ -46,3 +46,20 @@ function count_TXT_files()
   sum
 
 end
+
+function show_CSV_files()
+
+  sourceFiles = read_sourceFolder()
+ 
+  return occursin.(r".csv", sourceFiles) 
+
+end
+
+
+function show_TXT_files()
+
+  sourceFiles = read_sourceFolder()
+ 
+  return occursin.(r".txt", sourceFiles)
+
+end
