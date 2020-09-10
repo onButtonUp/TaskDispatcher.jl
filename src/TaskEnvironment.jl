@@ -1,7 +1,5 @@
 taskLoggingOn = true
 
-taskSourcePath = "./sourceData"
-
 function turn_on_logging()
     global taskLoggingOn = true
 end
