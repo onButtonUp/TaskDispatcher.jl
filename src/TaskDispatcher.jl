@@ -9,5 +9,4 @@ include("taskEnvironment.jl")
 
 export get_time, turn_on_logging, turn_off_logging
 
-
 end
